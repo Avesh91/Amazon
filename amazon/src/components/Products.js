@@ -10,7 +10,7 @@ const Products = () => {
 
 <div className='item'>
     <div className='product'>
-<img src="/img/product/p1.jpg" alt="" />
+<img src="https://i.postimg.cc/XqjqLpbB/p1.jpg" alt="" />
 <p className='per'>Up to 20% off</p>
 <p className='per-title'>Great Indian Festiver</p>
 <p>Redmi 10A|starting from 6999</p>
@@ -19,7 +19,7 @@ const Products = () => {
 
     <div className='item'>
     <div className='product'>
-<img src="/img/product/p3.jpg" alt="" />
+<img src="https://i.postimg.cc/Hn6xhdYZ/p3.jpg" alt="" />
 <p className='per'>Up to 40% off</p>
 <p className='per-title'>Great Indian Festiver</p>
 <p>Oneplus  CE Nord lite 5G ||Buy Now</p>
@@ -28,7 +28,7 @@ const Products = () => {
 
     <div className='item'>
     <div className='product'>
-<img src="/img/product/p2.jpg" alt="" />
+<img src="https://i.postimg.cc/XqjqLpbB/p1.jpg" alt="" />
 <p className='per'>Up to 10% off</p>
 <p className='per-title'>Great Indian Festiver</p>
 <p>Redmi 9 Active|starting from 7499</p>
@@ -37,7 +37,7 @@ const Products = () => {
 
 <div className='item'>
     <div className='product'>
-<img src="/img/product/p4.jpg" alt="" />
+<img src="https://i.postimg.cc/x1JCtwW5/p4.jpg" alt="" />
 <p className='per'>Up to 5% off</p>
 <p className='per-title'>Great Indian Festiver</p>
 <p>Oneplus 10R prime|starting from 30,999</p>
@@ -59,7 +59,7 @@ const Products = () => {
 
     <div className='item'>
     <div className='product'>
-<img src="/img/product/p3.jpg" alt="" />
+<img src="https://i.postimg.cc/Hn6xhdYZ/p3.jpg" alt="" />
 <p className='per'>Up to 40% off</p>
 <p className='per-title'>Great Indian Festiver</p>
 <p>Oneplus  CE Nord lite 5G ||Buy Now</p>
