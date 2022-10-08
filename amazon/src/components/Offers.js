@@ -5,10 +5,10 @@ const Offers = () => {
     <div>
         <div className='bigbox'>
 <div className='box'>
-    <img src='/img/offers/clothing.jpg' />
-    <img src='/img/offers/footwear.jpg'  style={{marginLeft: '20px'}}/><br/>
-    <img src='/img/offers/watches.jpg' />
-    <img src='/img/offers/bags.jpg'  style={{marginLeft: '20px'}}/>
+    <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg' />
+    <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg'  style={{marginLeft: '20px'}}/><br/>
+    <img src='https://i.postimg.cc/rmmFR7C5/watches.jpg />
+    <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg'  style={{marginLeft: '20px'}}/>
 
 </div>
 
