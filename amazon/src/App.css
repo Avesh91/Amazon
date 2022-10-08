@@ -1,0 +1,379 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* navbar */
+
+.navbar{
+  background: rgba(0, 0, 0, 0.993);
+  height: 40px;
+  padding-top: 15px;
+}
+.logo{
+  margin-left: 20px;
+}
+.search-bar{
+  text-align: center;
+margin-top: -10px;
+
+
+}
+
+.s-bar{
+  width: 600px;
+  height: 40px;
+}
+.list{
+  margin-left: 250px;
+
+}
+.navbar{
+  display: flex;
+}
+/* end navbar */
+
+
+/* offers */
+.box{
+  background: rgb(255, 255, 255);
+  height: 300px;
+  width: 450px;
+ text-align: center;
+ padding-top: 60px;
+ margin-top: -200px;
+ position: relative;
+ margin-left: 30px;
+}
+.bigbox{
+  margin-left: 20px;
+  display: flex;
+}
+
+
+/* drop down */
+.btn-secondary{
+  margin-left: -500px;
+}
+
+
+body{
+  background-color:rgba(216, 212, 206, 0.582);
+}
+
+/* product */
+.product{
+  background:rgba(233, 233, 233, 0.644);
+ width: 300px;
+ height:230px;
+ text-align: center;
+ padding-top: 30px;
+  margin-top: 30px;
+
+}
+.container{
+  display: flex;
+  background: white;
+  margin-top: 180px;
+  height: 360px;
+  padding-left: 100px;
+  gap: 40px;
+}
+.per{
+  color: white;
+  background:rgb(202, 13, 13);
+  width: 130px;
+  height: 30px;
+  font-weight: bolder;
+
+}
+.per-title{
+  color:rgb(202, 13, 13);
+  font-weight: bolder;
+  margin-left: 140px;
+  margin-top: -40px;
+
+}
+
+
+
+/* sec nav */
+.sec-nav{
+  background:rgb(13 37 54 / 94%);
+  height: 40px;
+  padding-top: 10px;
+  margin-top: -45px;
+  padding-left: 30px;
+  display: flex;
+  gap: 40px;
+   cursor:pointer;
+
+}
+.navitem{
+  color: white;
+  font-weight:bolder;
+position: relative;
+}
+.navitem:hover{
+color: goldenrod;
+}
+#catogrie{
+  width: 50px;
+  height: 38px;
+  margin-left: -5px;
+  margin-top: -39px;
+  
+}
+
+
+
+/* horizontal scroll */
+.wrapper{
+  position: relative;
+  display: flex;
+height: 360px;
+  margin-left: -70px;
+  gap: 70px;
+  overflow-x:hidden;
+  margin-top: 20px;
+  overflow-y: hidden;
+}
+.wrapper:hover{
+  overflow-x:auto ;
+}
+.item{
+  margin-top: -50px;
+}
+
+.wrapper .item{
+text-align: center;
+}
+
+
+.wrapper ::-webkit-scrollbar{
+  width: 0;
+  margin-right: 2px;
+  
+}
+.kitchen{
+  background-color: #fff;
+}
+
+
+/* sec offer */
+
+
+
+.bigBox{
+  display: flex;
+  position: relative;
+
+
+}
+
+/* new launch product */
+.secProducts{
+  background-color: #fff;
+  position: relative;
+
+}
+.secProduct{
+ 
+}
+/* horizontal scroll */
+.secWrapper{
+  display: flex;
+height: 260px;
+  margin-left: -70px;
+  gap: 70px;
+ overflow-x: hidden;
+  margin-top: 20px;
+  overflow-y: hidden;
+  padding-top: 90px;
+  padding-left: 150px;
+}
+.secWrapper:hover{
+  overflow-x:auto ;
+}
+.item{
+  margin-top: -50px;
+}
+
+.secWrapper .item{
+text-align: center;
+position: relative;
+}
+
+
+.secWrapper ::-webkit-scrollbar{
+  width: 0;
+  margin-right: 2px;
+  
+}
+
+.kBox{
+   background-color: #fff;
+  gap: 30px;
+
+}
+.kproduct{
+margin-right: 80px;
+}
+.bigBox{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  /* background-color: #00284e; */
+  background:rgb(13 37 54 / 94%);
+  gap: 100px;
+  color: white;
+}
+footer{
+  height: 130px;
+  padding-top: 30px;
+  margin-top: -3px;
+  text-align: center;
+  justify-content: center;
+  background-color:rgb(13 37 54 / 94%);
+  color: white;
+}
+li{
+overflow: hidden;
+}
+
+
+.cart{
+margin-left: 50px;
+}
+
+
+
+/* nav dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.dropdown-content:hover {
+  color:goldenrod;
+}
+
+
+.sign-btn{
+  color: black;
+  background-color: goldenrod;
+  
+  border-radius: 15px;
+}
+
+
+
+.secDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .secDropdown-content {
+  display: block;
+  margin-left: -200px;
+}
+/*  */
+.button {
+  border: none;
+  color:#ffffff;
+  background-color: goldenrod;
+  border-radius: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: -40px;
+  margin-left: -100px;
+
+
+}
+.button:hover{
+  color: black;
+}
+#catogrie{
+  margin-top: -40px;
+  margin-left: -50px;
+  height: 50px;
+}
+.search-bar{
+  margin-top: 5x;
+}
+
+
+/* sidebar */
