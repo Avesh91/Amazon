@@ -6,7 +6,7 @@ const Navbar = () => {
         
             <div className='navbar'>
 <div className='logo'>
-    <img src='./public/img/logo.png' height={'39px'} />
+    <img src='../public/img/logo.png' height={'39px'} />
 </div>
 
 {/* list */}
