@@ -1,11 +1,11 @@
 import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
-    { url: "/img/ad/ad1.jpg" },
-  { url: "/img/ad/ad3.jpg" },
-  { url: "/img/ad/ad4.jpg" },
-  { url: "/img/ad/ad5.jpg" },
-  { url: "/img/ad/ad2.jpg" },
+    { url: "https://i.postimg.cc/CMNZ08pz/ad1.jpg" },
+  { url: "https://i.postimg.cc/mg0kjNC6/ad2.jpg" },
+  { url: "https://i.postimg.cc/mD4DfLdY/ad4.jpg" },
+  { url: "https://i.postimg.cc/XvdJzGgN/ad3.jpg" },
+  { url: "https://i.postimg.cc/G2jpbWNZ/ad5.jpg" },
 
  
 ];
