@@ -7,7 +7,7 @@ const Offers = () => {
 <div className='box'>
     <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg' />
     <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg'  style={{marginLeft: '20px'}}/><br/>
-    <img src='https://i.postimg.cc/rmmFR7C5/watches.jpg />
+    <img src='https://i.postimg.cc/rmmFR7C5/watches.jpg' />
     <img src='https://i.postimg.cc/gJYLSMy0/clothing.jpg'  style={{marginLeft: '20px'}}/>
 
 </div>
